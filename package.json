@@ -1,12 +1,14 @@
 {
-  "name": "application-name",
+  "name": "joola.io.express-demo",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.4.8",
-    "jade": "*"
+    "express": "*",
+    "jade": "*",
+
+    "joola.io.express": "*"
   }
 }

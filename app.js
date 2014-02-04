@@ -17,7 +17,7 @@ app.set('view engine', 'jade');
 app.use(require('joola.io.express')({
     readKey: 1234,
     writeKey: 7890,
-    host: 'http://localhost:8080'
+    host: 'http://reflect.io:8080'
   }
 ));
 app.use(express.favicon());
